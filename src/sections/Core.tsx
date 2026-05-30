@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Core() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black text-white">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black text-white" id="core">
       <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,#ffffff20,transparent_70%)]" />
 
       <motion.div
