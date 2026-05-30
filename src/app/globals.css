@@ -9,3 +9,9 @@ body {
   color: white;
   overflow-x: hidden;
 }
+
+@media (hover: hover) and (pointer: fine) {
+  * {
+    cursor: none;
+  }
+}

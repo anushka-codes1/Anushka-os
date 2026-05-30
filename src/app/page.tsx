@@ -11,6 +11,11 @@ import Projects from "../sections/Projects";
 import Memory from "../sections/Memory";
 import Contact from "../sections/Contact";
 import SmoothScroll from "../components/providers/SmoothScroll";
+import CustomCursor from "../components/cursor/CustomCursor";
+
+const Divider = () => (
+  <div className="h-px w-full bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+);
 
 export default function Home() {
   const [loaded, setLoaded] = useState(false);
@@ -18,6 +23,11 @@ export default function Home() {
   return (
     <>
       {!loaded && <BootLoader onComplete={() => setLoaded(true)} />}
+      <>
+        <CustomCursor />
+        {!loaded && <BootLoader onComplete={() => setLoaded(true)} />}
+        ...
+      </>
 
       {loaded && (
         <>
@@ -25,11 +35,19 @@ export default function Home() {
           <SmoothScroll>
             <main className="bg-black text-white">
               <Core />
+              <Divider />
+
               <Stack />
+              <Divider />
+
               <Projects />
+              <Divider />
+
               <Memory />
-            <Contact />
-          </main>
+              <Divider />
+              
+              <Contact />
+            </main>
           </SmoothScroll>
         </>
       )}
