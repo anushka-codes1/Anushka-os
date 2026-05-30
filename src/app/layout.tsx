@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-project-name.vercel.app"),
+  metadataBase: new URL("https://anushkaos.vercel.app/"),
 
   title: "Anushka Mukherjee | Portfolio",
 
@@ -22,13 +22,18 @@ export const metadata: Metadata = {
 
   openGraph: {
     title: "Anushka Mukherjee | Portfolio",
-
     description:
       "Portfolio showcasing AI projects, full-stack development, and software engineering work.",
-
-    images: ["/images/og-image.png"],
+    url: "https://anushkaos.vercel.app/",
+    images: [
+    {
+      url: "/images/og-image.png",
+      width: 1200,
+      height: 630,
+      alt: "Anushka Mukherjee Portfolio",
+    },
+  ],
   },
-
   icons: {
     icon: "/favicon.ico",
   },
