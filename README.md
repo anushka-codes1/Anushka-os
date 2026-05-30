@@ -1,36 +1,189 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Anushka.OS
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+A futuristic portfolio experience showcasing AI engineering, full-stack development, and modern software systems.
+
+Live Site → https://your-domain.com
+
+</div>
+
+---
+
+## Preview
+
+<img width="1470" height="821" alt="Screenshot 2026-05-30 at 6 15 38 PM" src="https://github.com/user-attachments/assets/a34b0001-54a4-4252-906c-7c73b99803fe" />
+
+---
+
+## About
+
+Anushka.OS is a personal portfolio designed as a cyber-inspired operating system interface.
+
+The project highlights:
+
+- AI-powered applications
+- Full-stack engineering projects
+- Interactive technology visualizations
+- Professional experience timeline
+- Modern UI/UX design principles
+
+Built to showcase both technical skills and product design thinking.
+
+---
+
+## Features
+
+### Neural Technology Network
+
+Interactive visualization of technologies and their relationships.
+
+- Python
+- Java
+- JavaScript
+- TypeScript
+- React
+- Next.js
+- FastAPI
+- MongoDB
+- MySQL
+- Tailwind CSS
+
+---
+
+### System Archive
+
+Project showcase featuring:
+
+#### AI Resume Analyzer
+
+- ATS scoring
+- Resume summarization
+- Keyword extraction
+- AI recommendations
+- Gemini API integration
+
+#### Campus Swap
+
+- Student marketplace
+- Peer-to-peer exchange
+- Resource discovery
+- Authentication system
+
+---
+
+### Neural Memory Archive
+
+Interactive timeline documenting:
+
+- AI engineering journey
+- Hackathon projects
+- Internship experience
+- Ongoing engineering growth
+
+---
+
+### Contact Interface
+
+Professional business-card inspired contact section with:
+
+- Email
+- GitHub
+- LinkedIn
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- Next.js 16
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+
+### Backend
+
+- FastAPI
+- Python
+
+### Database
+
+- MongoDB
+- MySQL
+
+### AI
+
+- Gemini API
+
+---
+
+## Performance
+
+- Static Site Generation
+- Optimized Images
+- Responsive Design
+- SEO Metadata
+- Open Graph Support
+- Custom Favicon
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/anushka-codes1/anushka-os.git
+```
+
+Navigate into the project:
+
+```bash
+cd anushka-os
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build production version:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+Deployed using Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+vercel
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Anushka Mukherjee
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Aspiring Full Stack Engineer
+
+- GitHub: https://github.com/anushka-codes1
+- LinkedIn: https://www.linkedin.com/in/anushka-mukherjee28/
+- Email: anushka.classroom@gmail.com
+
+---
+
+© 2026 Anushka Mukherjee. All Rights Reserved.
