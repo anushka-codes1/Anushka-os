@@ -4,7 +4,7 @@
 
 A futuristic portfolio experience showcasing AI engineering, full-stack development, and modern software systems.
 
-Live Site → https://your-domain.com
+Live Site → https://anushka-os.vercel.app
 
 </div>
 
